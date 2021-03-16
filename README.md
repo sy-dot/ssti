@@ -1,35 +1,35 @@
 # Simple Script Tor Installer
 
-**Не браузер!**
-**Пропускать весь трафик через ТОР**
+**Not browser!**
+**Pass all traffic through the TOR**
 
 ```bash
-//Установка
+//Installation
 git clone https://github.com/sy-dot/ssti
 cd ssti
 su
 chmod +x install_all.sh
 ./install_all.sh
 ```
-#### **⏱️ Ждать**
-**Поменять UID - на свой!**
+#### **⏱️ Wait**
+**Change UID - on your!**
 ```
 debian-tor:x:444:333::/var/lib/tor:/bin/false
-//Твой UID - 444 (XYZ)
+//Your UID - 444 (XYZ)
 nano tor_on.sh
 ```
-#### **Запуск**
+#### **Start**
 ```
 ./tor_on.sh
 ```
-#### **Офать**
+#### **Off**
 ```
 ./tor_off.sh
 ```
 
-> **Если будут траблы с тором, инет офнится на всей машине!**
+> **If there are problems with the tor, the Internet will be off on the whole machine!**
 
-###### **Так же работает на vps/vds**
+###### **Also working on vps/vds**
 
-###### **Впервую очередь - делал для себя!**
+###### **First of all, I did it for myself!**
 
